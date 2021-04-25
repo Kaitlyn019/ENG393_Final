@@ -1,37 +1,21 @@
-## Welcome to GitHub Pages
+## ENG393 Final Project
 
-You can use the [editor on GitHub](https://github.com/Kaitlyn019/ENG393_Final/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Complete our survey! (estimated completion time: 2-5 minutes)
 
-### Markdown
+<a href='https://forms.gle/KJZANn4wgZjcfJhA6'><img src="survey-icon-e1520984440798.png" alt="survey icon" width="200" /></a>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+[Link](https://forms.gle/KJZANn4wgZjcfJhA6)
 
-```markdown
-Syntax highlighted code block
+### Welcome! We are currently doing a project on the affects of the COVID-19 quarantine has on the UMD student population socially and ways students have adapted. We will be keeping this page updated with various sites and events for the UMD student community, so keep an eye out for that! 
 
-# Header 1
-## Header 2
-### Header 3
+### As we prepare, our first step is collecting survey data. If you have a few minutes to spare to fill it out, we would really appreciate it. Thank you!
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
+##### Support or Contact
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Kaitlyn019/ENG393_Final/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+##### ENG393 Final Project
+##### Justin De Burgo, Jacob Sabonis, Kaitlyn Yang
+##### Redirect Questions to kyang124@terpmail.umd.edu
