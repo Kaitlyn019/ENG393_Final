@@ -1,4 +1,5 @@
-## ENG393 Final Project
+# Events @ UMD
+## One Stop to find Virtual and Safe Events hosted by the UMD Community
 
 
 Complete our survey! (estimated completion time: 2-5 minutes)
@@ -15,7 +16,6 @@ Complete our survey! (estimated completion time: 2-5 minutes)
 
 
 ##### Support or Contact
+###### Justin De Burgo, Jacob Sabonis, Kaitlyn Yang
 
-##### ENG393 Final Project
-##### Justin De Burgo, Jacob Sabonis, Kaitlyn Yang
-##### Redirect Questions to kyang124@terpmail.umd.edu
+###### Redirect Questions to kyang124@terpmail.umd.edu
