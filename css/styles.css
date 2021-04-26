@@ -1,0 +1,398 @@
+/*
+Author: Omar
+Date: 4/6/21
+File Name style.css
+*/
+
+/* CSS Reset */
+
+body {
+    background-color: #0B0C10
+}
+
+body, header, nav, main, footer, img, h1, ul, section, aside, figure, figcaption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+a {
+    color: lightblue;
+}
+
+p, li, h2, h3 {
+    color: #C5C6C7;
+}
+
+/* Style rule for images */
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Style rule for box sizing applies to all elements */
+
+* {
+    box-sizing: border-box;
+}
+
+/*Style rules for header content*/
+
+header {
+    text-align: center;
+    font-size: 1.5em;
+    color: #66FCF1;
+}
+
+header, h1 {
+    font-style: italic;
+    font-family: 'DM Serif Display', serif;
+}
+
+/* style rules for navigation area */
+
+nav {
+    background-color: #45A29E
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: block;
+    font-size: 2em;
+    border-top: 1px solid #1F2833;
+}
+
+nav li a {
+    display: block;
+    text-align: center;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+/* style ruless for main content */
+
+main {
+    padding: 2%;
+    background-color: #1F2833;
+    overflow: auto;
+    font-family: verdana, arial, sans-serif;
+}
+
+main p {
+    font-size: 1.25em;
+}
+
+.action {
+    font-size: 1.25em;
+    color: #66FCF1;
+    font-weight: bold;
+}
+
+#piano, #guitar, #violin {
+    margin: 0 2%;
+}
+
+#info {
+    clear: left;
+    padding: 1%, 2%;
+}
+
+#info ul {
+    margin-left: 10%;
+}
+
+.round {
+    border-radius: 8px;
+}
+
+#contact, .email-link, #rental, h2 {
+    text-align: center;
+}
+
+.tel-link {
+    background-color: #66FCF1;
+    padding: 2%;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.tel-link a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    display: block;
+}
+
+#contact a {
+    color: #C5C6C7;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.map {
+    border: 5px solid #66FCF1;
+    width: 95%;
+    height: 50%;
+}
+
+/* Style rules for table */
+
+table {
+    border: 1px solid #66FCF1;
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 100%;
+}
+
+caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 1%;
+}
+
+th, td {
+    border: 1px solid #66FCF1;
+    padding: 2%;
+    color: white;
+}
+
+th {
+    background-color: #66FCF1;
+    color: black;
+    font-size: 1.15em;
+}
+
+tr:nth-child(odd) {
+    background-color: #b7b7e1;
+}
+
+/*style rules for footer content*/
+
+footer {
+    text-align: center;
+    font-size: 0.65em;
+    clear: left;
+}
+
+footer a {
+    color: #C5C6C7;
+    text-decoration: none;
+}
+
+/*Style rules for mobile viewport*/
+
+aside {
+    text-align: center;
+    font-size: 1.5em;
+    color: #66FCF1;
+    text-shadow: 3px 3px 10px #8280cb;
+}
+
+figure {
+    position: relative;
+    max-width: 275px;
+    margin: 2% auto;
+    border: 8px solid #66FCF1;
+}
+
+figcaption {
+    position: absolute;
+    bottom: 0;
+    background: rgba(55, 54, 132, 0.7);
+    color: #fff;
+    width: 100%;
+    padding: 5% 0;
+    text-align: center;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/*Hide tab-desk class*/
+
+.tab-desk {
+    display: none;
+}
+
+/* Style rules for form elements */
+
+fieldset input {
+    margin-bottom: 2%
+}
+
+fieldset legend {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #C5C6C7;
+}
+
+label {
+    color: #C5C6C7;
+}
+
+label {
+    display: block;
+    padding: 3%;
+}
+
+form #submit {
+    margin: 0 auto;
+    display: block;
+    padding: 3%;
+    color: b7b7e1;
+    font-size: 1em;
+}
+
+/* New styles */
+
+.red-diamond {
+    color: red;
+}
+
+.resume {
+    margin: auto
+}
+
+.job {
+    font-size: 1.35em;
+    color: #C5C6C7;
+}
+
+#hero {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.killzone {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.video {
+    display: block;
+    margin: 0 auto;
+}
+
+textarea {
+    width: 100%;
+    height: 65%;
+}
+
+/* Media Query for Tablet Viewport */
+
+@media screen and (min-width: 550px), print {
+    .grid {
+        display: grid;
+        grid-template-columns: 2;
+        grid-gap: 20px;
+    }
+    aside {
+        grid-column: 1 / span 2;
+    }
+    /* Tablet Viewport: Show tab-desk class, hide mobile class */
+    .tab-desk {
+        display: block;
+    }
+    .mobile {
+        display: none;
+    }
+    /* Tablet Viewport: Style rule for header content */
+    span.tab-desk {
+        display: inline;
+    }
+    /*Tablet Viewport: Style rules for nav area.   Below*/
+    nav li {
+        border-top: none;
+        display: inline-block;
+        font-size: 1.5em;
+        border-right: 1px solid #1F2833;
+    }
+    nav li:last-child {
+        border-right: none;
+    }
+    nav li {
+        padding-top: 0.25em;
+        padding-bottom: 0.25em;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+    /* Tablet Viewport: Style rule for map. */
+    .map {
+        width: 500px;
+        height: 450px;
+    }
+    /* Tablet Viewport: Style rule for form element */
+    form {
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+
+/* Media Query for Desktop Viewport. */
+
+@media screen and (min-width: 769px), print {
+    .grid {
+        grid-template-columns: 4;
+    }
+    figcaption {
+        font-size: 1em;
+    }
+    aside {
+        grid-column: 1 / span 4;
+    }
+    /* Desktop Viewport: Style rule for header.  */
+    header {
+        padding: 2%;
+    }
+    /* Desktop Viewport: Style rules for nav area. */
+    nav li {
+        padding: 0.5em 1.5em;
+    }
+    nav li:hover {
+        color: #66FCF1;
+        background-color: #1F2833;
+    }
+    /* Desktop Viewport: Style rules for main content */
+    #info ul {
+        margin-left: 5%;
+    }
+    main h3 {
+        font-size: 1.5em;
+    }
+    #piano, #guitar, #violin {
+        width: 29%;
+        float: left;
+        margin: 0% 2%;
+    }
+    /* Desktop Viewport: Style rules for table */
+    table {
+        width: 70%;
+    }
+    /* Tablet Viewport: Style rule for form element */
+    .form-grid {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 20px;
+    }
+    .btn {
+        grid-column: 1 / span 2;
+    }
+}
+
+/* Media Query for Print */
+
+@media print {
+    body {
+        background-color: #fff;
+        color: #000;
+    }
+}
