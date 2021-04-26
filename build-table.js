@@ -28,7 +28,7 @@ function generateTable(table, data) {
 
 function filterTable() {
     let search = document.getElementById("search").value
-    let filteredSources = sources.filter(source => source.name.includes(search) || source.url.includes(search))
+    let filteredSources = sources.filter(source => source.toLowerCase().name.includes(search.toLowerCase()) || source.toLowerCase().url.includes(search.toLowerCase()))
     let table = document.querySelector("table");
     table.removeChild(table.children[0])
     let data = Object.keys(filteredSources[0]);
