@@ -1,5 +1,5 @@
 /*
-Author: Omar
+Author: Omar, Kaitlyn
 Date: 4/6/21
 File Name style.css
 */
@@ -7,13 +7,19 @@ File Name style.css
 /* CSS Reset */
 
 body {
-    background-color: #0B0C10
+    background-color: #fff;
 }
 
 body, header, nav, main, footer, img, h1, ul, section, aside, figure, figcaption {
     margin: 0;
     padding: 0;
     border: 0;
+}
+
+div {
+    max-width: 75%;
+    margin: auto;
+    padding: 2%;
 }
 
 a {
@@ -37,23 +43,45 @@ img {
     box-sizing: border-box;
 }
 
+/*Style rules for Div Main*/
+
+.main, body, h3{
+    color: black;
+    text-align: center;
+    font-family: 'Lucida Sans Thin';
+}
+
+.main, a{
+    color: blue;
+    font-family: 'Lucida Sans Thin';
+}
+
+.main, img, a{
+    margin: auto;
+}
+
 /*Style rules for header content*/
 
 header {
     text-align: center;
     font-size: 1.5em;
-    color: #66FCF1;
+    color: #fff;
 }
 
 header, h1 {
-    font-style: italic;
-    font-family: 'DM Serif Display', serif;
+    font-family: 'Lucida Sans';
+    background-color: #e21833;
+}
+
+header, p {
+    font-family: 'Lucida Sans';
+    color: #fff;
 }
 
 /* style rules for navigation area */
 
 nav {
-    background-color: #45A29E
+    color: #fff;
 }
 
 nav ul {
