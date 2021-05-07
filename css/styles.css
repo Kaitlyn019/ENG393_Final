@@ -4,14 +4,18 @@ Date: 4/6/21
 File Name style.css
 */
 
+
+
+
 /* CSS Reset */
 
 body {
     background-color: #fff;
+    max-width: 75%;
+    margin: auto;
 }
 
 body, header, nav, main, footer, img, h1, ul, section, aside, figure, figcaption {
-    margin: 0;
     padding: 0;
     border: 0;
 }
@@ -26,7 +30,7 @@ a {
     color: lightblue;
 }
 
-p, li, h2, h3 {
+p, li, h3 {
     color: #C5C6C7;
 }
 
@@ -41,6 +45,28 @@ img {
 
 * {
     box-sizing: border-box;
+}
+
+/*Style rules for side banner*/
+.side-banner-left{
+    position: fixed;
+    height: 100%;
+    right: 87.5vw;
+    opacity: 75%;
+}
+
+.side-banner-right{
+    position: fixed;
+    height: 100%;
+    left: 87.5vw;
+    opacity: 75%;
+}
+
+
+@media screen and (max-width: 550px), print {
+    .side-banner{
+        display: none;
+    }
 }
 
 /*Style rules for Div Main*/
@@ -70,15 +96,15 @@ header {
 
 header, h1 {
     font-family: 'Lucida Sans';
-    background-color: #e21833;
+    /*background-color: #e21833;*/
 }
 
 header, p {
     font-family: 'Lucida Sans';
-    color: #fff;
+    color: #000;
 }
 
-/* style rules for navigation area */
+/* style rules for navigation area
 
 nav {
     color: #fff;
@@ -98,10 +124,9 @@ nav li {
 nav li a {
     display: block;
     text-align: center;
-    padding: 0.5em 1em;
     text-decoration: none;
 }
-
+ */
 /* style ruless for main content */
 
 main {
@@ -170,7 +195,7 @@ main p {
     height: 50%;
 }
 
-/* Style rules for table */
+/* Style rules for table 
 
 table {
     border: 1px solid #66FCF1;
@@ -196,11 +221,10 @@ th {
     color: black;
     font-size: 1.15em;
 }
-
 tr:nth-child(odd) {
     background-color: #b7b7e1;
 }
-
+*/
 /*style rules for footer content*/
 
 footer {
