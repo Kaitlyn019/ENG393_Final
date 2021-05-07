@@ -1,7 +1,7 @@
 let sources = [
-    { name: "UMD", url: "umd.edu" },
-    { name: "hi", url: "hi.edu" },
-    { name: "Bowie", url: "Bowie.edu" }
+    { name: "UMD", description: "site desc", link: "umd.edu" },
+    { name: "hi",  description: "nice", link: "hi.edu" },
+    { name: "Bowie", description: "virtual", link: "Bowie.edu" }
 ];
 
 function generateTableHead(table, data) {
