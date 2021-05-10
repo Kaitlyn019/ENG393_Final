@@ -1,17 +1,20 @@
 let sources = [
-    { name: "Facebook", description: "Social media", link: "facebook.com" },
-    { name: "Instagram", description: "Social media", link: "instagram.com" },
-    { name: "Discord", description: "Virtual messaging and video chat platform", link: "discord.com" },
-    { name: "Zoom", description: "Video chatting platform", link: "zoom.com" },
-    { name: "TerpLink", description: "A site for UMD students and alumni to find oppurtunities", link: "terplink.umd.edu" },
-    { name: "SPS", description: "Social media", link: "instagram.com" },
-    { name: "Student Organization Resources", description: "Social media", link: "instagram.com" },
+    { name: "TerpLink", description: "A site for UMD students and alumni to find oppurtunities. All official UMD organizations are registered here and many post events as they occur. If you want a place to start looking for clubs, this is it!", link: "terplink.umd.edu" },
+    { name: "SPS", description: "The Society of Physics Students is an opportunity to meet other physics majors. Try looking to see if your own major has an organization and support system!", link: "https://sps.physics.umd.edu/" },
+    { name: "Student Organization Resource Center", description: "Also known as SORC, they are committed to helping student organizations and students meet. Follow their Facebook for event notifications (there are many during final seasons!)", link: "https://www.facebook.com/MarylandSORC" },
+    { name: "Gather Town", description: "Want to hang out with friends in a unique way? Host an event? Gather town offers a customizable map with proximity chat and plenty of games!", link: "gather.town"},
+    { name: "Facebook", description: "Social media - Many events and organizations advertise on facebook! You can meet new people, join private groups, and get details by searching UMD.", link: "facebook.com" },
+    { name: "Instagram", description: "Social media - Try filtering by location or simply searching UMD to find various organizations. Most post stories before events and are open to any DMs for questions!", link: "instagram.com" },
+    { name: "Discord", description: "Virtual messaging and video chat platform - A great platform to talk to your friends and video call in one place.", link: "discord.com" },
+    { name: "Zoom", description: "Video chatting platform - You might know this for school but there are many functionalities of Zoom as a way to talk to your friends.", link: "zoom.com" }
 ];
 
-function generateTableHead(table, data) {
+head = ['Name', 'Description', 'Link']
+
+function generateTableHead(table) {
     let thead = table.createTHead();
     let row = thead.insertRow();
-    for (let key of data) {
+    for (let key of head) {
         let th = document.createElement("th");
         let text = document.createTextNode(key);
         th.appendChild(text);
