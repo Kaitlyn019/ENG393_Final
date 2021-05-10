@@ -18,7 +18,8 @@ function generateTableHead(table) {
     let row = thead.insertRow();
     for (let key of head) {
         let th = document.createElement("th");
-        let text = document.createTextNode(key);
+        let title = key[0].toUpperCase() + key.substring(1)
+        let text = document.createTextNode(title);
         th.appendChild(text);
         row.appendChild(th);
     }
@@ -33,7 +34,11 @@ function generateTable(table, data) {
             let text = document.createTextNode(element[key]);
             a.appendChild(text);
             a.title = element[key];
+<<<<<<< HEAD
             a.href = "https://"+element[key];
+=======
+            a.href = "https://" + element[key];
+>>>>>>> 18fd8f96e76686947c513f3bcd8e12f792cf8866
             if (key == "link") {
                 cell.appendChild(a);
             }
